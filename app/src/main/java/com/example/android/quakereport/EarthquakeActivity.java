@@ -129,7 +129,6 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderManag
 
     }
 
-
     public Loader<List<Earthquake>> onCreateLoader(int i, Bundle bundle){
         Log.v(LOG_TAG, "Creating Loader");
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
